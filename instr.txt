@@ -1,0 +1,6 @@
+yarn create @neutrinojs/project prayer-timetable-widget-react
+yarn add moment-hijri prayer-timetable-lib
+
+
+yarn lint --fix
+yarn start

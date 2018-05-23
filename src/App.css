@@ -1,0 +1,147 @@
+.root {
+  font-size: 14px;
+}
+
+
+.Widget {
+    height:100%;
+    display:flex;
+    flex-wrap: wrap;
+
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-content: stretch; */
+    border: 1px solid #E86D3C;
+}
+
+
+.Hadith {
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: 100%;
+  min-width: 300px;
+  padding: 1em;
+  flex: .34;
+}
+
+.Clock {
+    background: url('logo-ar.png') #E86D3C no-repeat 50%;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 300px;
+    padding: 1em;
+    flex: .32;
+    /* height: 500px; */
+}
+
+
+.Prayers {
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width:100%;
+  min-width: 300px;
+  padding: 1em;
+  flex:.34;
+}
+
+
+/* HADITH COMPONENT */
+.hadithText {
+  font-size: 100%;
+  text-align: justify;
+  padding: 1em 0;
+}
+.hadithTitle {
+  font-size: 85%;
+  text-align: right;
+}
+.hadithImage {
+  height: 140px;
+  background-size: cover;
+}
+
+/* CLOCK COMPONENT */
+.timeRow {
+    color: rgba(255,255,255,.9);
+    text-shadow: 0 0 2px rgba(0,0,0,.5);
+    display: flex;
+    /* flex:.7; */
+    font-size: 240%;
+    align-items: center;
+    flex-direction: column;
+}
+.dateRow {
+    color: rgba(255,255,255,.9);
+    text-shadow: 0 0 1px rgba(0,0,0,.5);
+    display: flex;
+    font-size: 75%;
+    padding: 1em 0;
+    /* flex:.3; */
+    flex-direction: column;
+    align-items: center
+}
+.countdownRow {
+  color: rgba(255,255,255,.9);
+  text-shadow: 0 0 2px rgba(0,0,0,.5);
+  display: flex;
+  /* flex:.7; */
+  font-size: 140%;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* TIMETABLE COMPONENT */
+.prayerTitle {
+  font-size: 90%;
+  font-variant: small-caps;
+  padding-bottom: 1em;
+  display: flex;
+  align-self: center;
+}
+.prayerHeader {
+    /* background-color: rgba(204,102,51,.75); */
+    display: flex;
+    margin: 0;
+    padding: .35em 0;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.prayerRow {
+    /* background-color: rgba(255,100,30,.25); */
+    display: flex;
+    color: #666;
+    margin: .25em 0;
+    padding: .35em 0;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+.prayerRow div, .prayerHeader div {
+    width: 33%;
+}
+.prayerName {
+    text-align: left;
+}
+.adhanTime {
+    text-align: center;
+}
+.iqamahTime {
+    text-align: right;
+}
+.next {
+    /* background-color: rgba(255, 100, 25, 0.75) */
+    border-top: #E86D3C 1px solid;
+    border-bottom: #E86D3C 1px solid;
+}

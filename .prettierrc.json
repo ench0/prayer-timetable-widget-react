@@ -1,0 +1,15 @@
+{
+  "semi": false,
+  "printWidth": 120,
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "parser": "flow",
+  "overrides": [
+    {
+      "files": "*.test.js",
+      "options": {
+        "semi": true
+      }
+    }
+  ]
+}
